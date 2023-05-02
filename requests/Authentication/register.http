@@ -1,9 +1,11 @@
 @host=https://localhost:7018
 
-POST {{host}}/api/Authentication/login
+POST {{host}}/api/Authentication/register
 Content-Type: application/json
 
 {
+  "firstname": "Bubu",
+  "lastname": "Perez",
   "email": "bubu@thecar.miau",
   "password": "meGustaElPollito"
 }
