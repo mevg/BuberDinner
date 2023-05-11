@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Common\Errors\Errors.Authentication.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Common\Errors\Errors.Authentication.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.2.1" />
+  </ItemGroup>
+
 </Project>
