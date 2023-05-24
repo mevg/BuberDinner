@@ -20,6 +20,8 @@ var app = builder.Build();
         app.UseSwaggerUI();
     }
     app.UseExceptionHandler("/error");
+    app.UseAuthentication();
+    app.UseAuthorization();
     app.UseHttpsRedirection();
     app.UseAuthorization();
     app.MapControllers();
