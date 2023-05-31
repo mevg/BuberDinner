@@ -2,7 +2,7 @@
 using BuberDinner.Application.Common.Interfaces;
 using BuberDinner.Application.Common.Persistance;
 using BuberDinner.Domain.Common.Errors;
-using BuberDinner.Domain.Entities;
+using BuberDinner.Domain.User;
 using ErrorOr;
 using MediatR;
 
